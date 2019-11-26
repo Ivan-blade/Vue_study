@@ -7,7 +7,7 @@
 
 ###  安装
 + 安装nodejs
-+ 搭建vue开发环境，安装vue脚手架工具
++ 搭建vue开发环境，安装vue脚手架工具(2.x)
     ```
         npm install --global vue-cli
         或者
@@ -36,17 +36,18 @@
             npm run dev
         ```
 
-+ 3.0脚手架
++ 3.x脚手架
     ```
-        日。。。有3.0为什么一开始要装2.0
+        日。。。有3.x为什么一开始要装2.x
         npm uninstall -g vue-cli
         卸载当前cli工具
         npm install -g @vue/cli
-        安装3.0脚手架
+        安装3.x脚手架
     ```
     + 启动方式
     ```
         cd进目录
+        vue create demo
         //一般只提示npm run dev 如果发现没有依赖包目录则会失败
         //如果失败 npm install下载依赖包
         npm run serve 运行
@@ -1045,7 +1046,7 @@
             axios({
                     method:'post',
                     url:'https://easy-mock.com/mock/5c23887d3671d47be5ea8d66/axiosdemo/course/add',
-                    data:{
+                    params:{
                         title:'xxx',
                         count:30
                     }
