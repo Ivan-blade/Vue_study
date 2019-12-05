@@ -5,9 +5,9 @@
 + https://cn.vuejs.org/v2/guide/
 
 ### 环境
-    + 编辑器推荐vscode，下面的命令可以输入在vscode中的终端里，vscode终端中可以直接使用linux命令行
++ 编辑器推荐vscode，下面的命令可以输入在vscode中的终端里，vscode终端中可以直接使用linux命令行
 ###  安装
-+ 安装nodejs
++ 安装node.js
     + <a href="https://www.runoob.com/nodejs/nodejs-install-setup.html">安装教程</a>
     + 安装完成之后验证
     ```
