@@ -7,7 +7,17 @@
 
 ###  安装
 + 安装nodejs
-+ 搭建vue开发环境，安装vue脚手架工具(2.x)
+    ```
+        node -v
+        验证node版本检查是否安装成功
+    ```
++ 安装vue
+    ```
+        npm install -g vue
+        vue -V
+        验证vue版本验证安装是否成功
+    ```
++ 搭建vue开发环境，安装vue脚手架工具(2.x)(也可以安装3.x或者4.x，貌似命令向下兼容)
     ```
         npm install --global vue-cli
         或者
@@ -42,19 +52,19 @@
         npm uninstall -g vue-cli
         卸载当前cli工具
         npm install -g @vue/cli
-        安装3.x脚手架
+        安装3.x脚手架(现在可能直接就是4.x了)
     ```
     + 启动方式
     ```
         cd进目录
-        vue create demo
-        //一般只提示npm run dev 如果发现没有依赖包目录则会失败
-        //如果失败 npm install下载依赖包
+        vue create demo(项目名)
+        这边会有一系列选项暂不补充看着选。。。
+        创建完成之后cd进入项目运行查看demo
         npm run serve 运行
         npm run build 编译
     ```
 
-### vue启动jpg
+### vue启动jpg（这边用到跨域请求再看，建议直接跳过）
 + vue-resource（请求数据官方）
     ```
         安装：npm install vue-resource --save
