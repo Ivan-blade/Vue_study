@@ -55,7 +55,7 @@
         npm uninstall -g vue-cli
         卸载当前cli工具
         npm install -g @vue/cli
-        安装3.x脚手架(现在可能直接就是4.x了)
+        安装3.x脚手架(现在可能直接是更高版本了了)
     ```
     + 启动方式
     ```
@@ -67,7 +67,7 @@
         npm run build 编译
     ```
 
-### vue启动jpg（这边用到跨域请求再看，建议直接跳过）
+### vue启动jpg（这边前三点用到跨域请求再看，建议直接跳过）
 + vue-resource（请求数据官方）
     ```
         安装：npm install vue-resource --save
